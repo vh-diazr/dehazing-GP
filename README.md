@@ -8,7 +8,7 @@ Restoring hazy images is challenging since it must account for several physical 
 
 BibTex citation:
 
-@article{HernandezBeltran2019,
+> @article{HernandezBeltran2019,
 title = "Design of estimators for restoration of images degraded by haze using genetic programming",
 journal = "Swarm and Evolutionary Computation",
 volume = "44",
