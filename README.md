@@ -2,6 +2,6 @@
 
 J. E. Hernandez-Beltran, V. H. Diaz-Ramirez, Leonardo Trujillo, PierrickLegrand
 
-Paper Link: DOI:10.1016/j.swevo.2018.11.008
+Paper Link: [DOI:10.1016/j.swevo.2018.11.008](https://doi.org/10.1016/j.swevo.2018.11.008)
 
 Restoring hazy images is challenging since it must account for several physical factors that are related to the image formation process. Existing analytical methods can only provide partial solutions because they rely on assumptions that may not be valid in practice. This research presents an effective method for restoring hazy images based on genetic programming. Using basic mathematical operators several computer programs that estimate the medium transmission function of hazy scenes are automatically evolved. Afterwards, image restoration is performed using the estimated transmission function in a physics-based restoration model. The proposed estimators are optimized with respect to the mean-absolute-error. Thus, the effects of haze are effectively removed while minimizing overprocessing artifacts. The performance of the evolved GP estimators given in terms of objective metrics and a subjective visual criterion, is evaluated on synthetic and real-life hazy images. Comparisons are carried out with state-of-the-art methods, showing that the evolved estimators can outperform these methods without incurring a loss in efficiency, and in most scenarios achieving improved performance that is statistically significant.
