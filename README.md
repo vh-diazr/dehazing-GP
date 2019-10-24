@@ -12,7 +12,7 @@ BibTex citation:
 title = "Design of estimators for restoration of images degraded by haze using genetic programming",
 
 
-journal = "Swarm and Evolutionary Computation",
+> journal = "Swarm and Evolutionary Computation",
 volume = "44",
 pages = "49 - 63",
 year = "2019",
