@@ -13,6 +13,6 @@ BibTex citation:
 	  author = "J. E. Hernandez-Beltran and V. H. Diaz-Ramirez and L. Trujillo and P. Legrand",
 	  journal = "Swarm and Evolutionary Computation",
 	  pages = "49 - 63",
-	  year = "2018",
+	  year = "2019",
 	} 
 
