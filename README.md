@@ -17,4 +17,4 @@ Please cite this paper as follows (Bibtex citation):
 	} 
 
 <p align="center">
-<img src="images/img7.png" width="250px" height="200px"/>         <img src="results/img7_outputPD.png" width="250px" height="200px"/>
+<img src="Images/img7.png" width="250px" height="200px"/>         <img src="results/img7_outputPD.png" width="250px" height="200px"/>
