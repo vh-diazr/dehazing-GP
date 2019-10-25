@@ -1,5 +1,5 @@
 
-from scipy import misc, math
+from scipy import math
 from cv2.ximgproc import guidedFilter
 from skimage.restoration import denoise_tv_chambolle
 from operator import mul, sub, add
