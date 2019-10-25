@@ -30,3 +30,8 @@ Install python packages:
 ## Usage
 ### To test the estimators GP-SD and GP-SN
 	python GPStatistics.py   
+
+### To test the estimators GP-PD and GP-PN
+	python GPPixels.py   
+	
+NOTE: Read comments in the source-file to select the estimators and modify parameters	
