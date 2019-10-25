@@ -20,7 +20,7 @@ Please cite this paper as follows (Bibtex citation):
 <p align="center">
 <img src="Images/img7.png" width="250px" height="200px"/>         <img src="Results/img7_outputPD.png" width="250px" height="200px"/>
 
-## Prerequisites:
+## Prerequisites
 Python 3
 
 Install python packages: 
@@ -34,4 +34,4 @@ Install python packages:
 ### To test the estimators GP-PD and GP-PN
 	python GPPixels.py   
 	
-NOTE: Read comments in the source-file to select the estimators and modify parameters	
+NOTE: Read comments in the source file to select the estimators and modify parameters	
