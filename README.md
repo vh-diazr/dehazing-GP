@@ -25,3 +25,8 @@ Python 3
 
 Install python packages: 
    opencv-contrib-python, numpy, scipy, scikit-image
+
+
+## Usage
+### To test the estimators GP-SD and GP-SN
+	python GPStatistics.py   
