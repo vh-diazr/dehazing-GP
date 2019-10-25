@@ -158,7 +158,7 @@ def dehazeScene(degraded_I, A_est):
 
 
 if __name__ == "__main__":
-    imgName = 'img9'
+    imgName = 'img7'
     degradedScene = np.float64( imread('Images/%s.png' % (imgName) ) )
     degradedScene = degradedScene[:,:,0:3]
     estimatedA = estimateAirlight(degradedScene, 19)
