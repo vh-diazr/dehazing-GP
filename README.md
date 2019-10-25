@@ -23,5 +23,5 @@ Please cite this paper as follows (Bibtex citation):
 ## Prerequisites:
 Python 3
 
-Install python package: 
-   opencv-python, numpy, scipy, scikit-image
+Install python packages: 
+   opencv-contrib-python, numpy, scipy, scikit-image
