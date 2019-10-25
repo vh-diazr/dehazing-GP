@@ -19,3 +19,9 @@ Please cite this paper as follows (Bibtex citation):
 ## Example
 <p align="center">
 <img src="Images/img7.png" width="250px" height="200px"/>         <img src="Results/img7_outputPD.png" width="250px" height="200px"/>
+
+## Prerequisites:
+Python 3
+
+Install python package: 
+   opencv-python, numpy, scipy, scikit-image
