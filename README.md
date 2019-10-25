@@ -16,5 +16,6 @@ Please cite this paper as follows (Bibtex citation):
 	  year = "2019",
 	} 
 
+## Example
 <p align="center">
-<img src="Images/img7.png" width="250px" height="200px"/>         <img src="results/img7_outputPD.png" width="250px" height="200px"/>
+<img src="Images/img7.png" width="250px" height="200px"/>         <img src="Results/img7_outputPD.png" width="250px" height="200px"/>
