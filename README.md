@@ -16,3 +16,5 @@ Please cite this paper as follows (Bibtex citation):
 	  year = "2019",
 	} 
 
+<p align="center">
+<img src="images/img7.png" width="250px" height="200px"/>         <img src="results/img7_outputPD.png" width="250px" height="200px"/>
