@@ -41,7 +41,7 @@ def protectedExp(a):
         a = 1
         return math.exp(a)
     else:
-        a = a/255
+        a = a/255.0
         return math.exp(a)
         
 def myif(a,b,c,d):
@@ -141,12 +141,12 @@ def dehazeScene(degraded_I, A_est):
     
     print('Estimate Transmission: Done!')
     estimated_T[estimated_T > 1] = 1.0
-    estimated_T[estimated_T < 0.01] = 0.1
+    estimated_T[estimated_T < 0.1] = 0.1
     
     estimated_T = guidedFilter(np.uint8(degraded_I*255), np.uint8(estimated_T*255), 100, 0.5)/255.0 
     refined_T = denoise_tv_chambolle(estimated_T, weight=0.1, multichannel=False)
     refined_T[refined_T > 1] = 1
-    refined_T[refined_T < 0.01] = 0.1
+    refined_T[refined_T < 0.1] = 0.1
         
     dehazed_I[:,:,0] = ( (degraded_I[:,:,0] - A_est) / refined_T ) + A_est
     dehazed_I[:,:,1] = ( (degraded_I[:,:,1] - A_est) / refined_T ) + A_est 
