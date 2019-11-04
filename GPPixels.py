@@ -88,7 +88,7 @@ def estimateAirlight(degraded_I, winSize):
 def dehazeScene(degraded_I, A_est):
         
     Nr,Nc,Np = degraded_I.shape 
-    winSize = 3 #The evolved estiators GP-PD and GP-PN were designed for a fixed window size = 3x3 pixels
+    winSize = 3 #The evolved estimators GP-PD and GP-PN were designed for a fixed window size = 3x3 pixels
     I1 = np.concatenate((np.flipud(np.fliplr(degraded_I)), np.flipud(degraded_I), np.flipud(np.fliplr(degraded_I))), axis=1)
     I2 = np.concatenate((np.fliplr(degraded_I), degraded_I, np.fliplr(degraded_I)), axis=1)
     I3 = np.concatenate((np.flipud(np.fliplr(degraded_I)), np.flipud(degraded_I), np.flipud(np.fliplr(degraded_I))), axis=1)
