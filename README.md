@@ -34,4 +34,4 @@ Install python packages:
 ### To test the estimators GP-PD and GP-PN
 	python GPPixels.py   
 	
-NOTE: Read comments in the source file to select the estimators and modify parameters.	
+NOTE: Read comments in the source file to select the estimators and modify parameters
